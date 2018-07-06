@@ -18,7 +18,7 @@ public class NumberGuess {
         boolean allIdoIsWin=false;
 
         //for loop to iterate through the 10 attemps given
-        for(int xx=10;xx>=0; xx--) {
+        for(int xx=9;xx>=0; xx--) {
 
             //scanner to get
             int numbGuess = numbScanner.nextInt();
